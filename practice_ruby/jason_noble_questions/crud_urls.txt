@@ -1,0 +1,11 @@
+Explain what the 8 URLs in a standard CRUD Scaffold do.
+
+GET /things - gets a list of all the things
+GET /things/1 - gets the thing with id  = 1
+GET /things/new - creates a new thing
+GET /things/1/edit - allows you to edit the thing where id = 1
+  (renders the view)
+POST /things - add a thing
+PATCH/PUT /things/1 - update thing where id = 1
+  (interacts w/ model)
+DELETE /things/1 - delete the thing where id = 1

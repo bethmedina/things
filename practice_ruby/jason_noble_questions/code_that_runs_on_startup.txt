@@ -1,0 +1,10 @@
+Where would you put code you wanted to be run once
+on Rails startup?  What sorts of code would you expect
+to find in that directory?
+
+Either config/environment.rb or config/initializers
+
+Code in environment.rb would be environment-specific.
+
+Code in config/initializers is set-up code that would
+run after the gems load but before the application loads.

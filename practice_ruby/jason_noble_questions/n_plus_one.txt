@@ -1,0 +1,12 @@
+explain n+1 query & how to avoid
+
+By default rails queries use lazy loading -
+they load the parent object w/o retrieving the children.
+
+A n + 1 query is caused by this lazy loading -
+when n queries are made for the child records + 1 for
+the parent.
+
+This problem can be solved with eager loading by using
+the includes method in the query to load the child
+records at the same time as the parent record.

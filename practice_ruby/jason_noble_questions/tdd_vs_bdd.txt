@@ -1,0 +1,14 @@
+What is TDD?  BDD?  How would you describe
+the difference?
+
+Test Driven Development is a software development
+methodology where tests drive the software development.
+Failing tests are written first, then the code to make
+the tests pass is written, and then code can be
+refactored. As long as the test pass the developer
+can then continue the cycle with writing some more
+tests.
+
+Behavior Driven development focuses on the behavior
+that drives the development. Tests are more verbose
+and read more like a sentence rather than code. 

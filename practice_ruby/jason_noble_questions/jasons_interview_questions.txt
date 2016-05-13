@@ -1,0 +1,16 @@
+# Write a method that takes an array as input and returns the index of the first unique value
+
+#Explain what the 8 URLs in a standard CRUD Scaffold do.
+# explain n+1 query & how to avoid
+# What is each used for?
+# How would you make the H1 tags show up in Red on the homepage, green on the About Us page and Purple on the Contact Us page?
+# What is TDD?  BDD?  How would you describe the difference?
+# Where would you put code you wanted to be run once on Rails startup?  What sorts of code would you expect to find in that directory?
+# What does remote: true do on a link_to ?
+# What's your favorite JS library?
+# What's them gem you always use?
+# Can you tell us about topic branches and how you would use them?
+# 1:46 What's a Pull Request?
+# Clone https://github.com/jasonnoble/davinci_motors_test_practice, run guard and make all the tests pass.
+# Give examples both with classical inheritance and with composition of how you would build objects
+# representing pick-up trucks, compact cars, and SUVs. don't get overly technical w/ internals of cars

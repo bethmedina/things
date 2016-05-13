@@ -1,0 +1,7 @@
+Can you tell us about topic branches and how you would
+use them?
+
+A topic branch is a branch off of the master (or main)
+branch that is used to work on one item. It has a
+descriptive name. Once work is completed on that
+branch it gets merged back into master.

@@ -1,0 +1,5 @@
+What is each used for?
+
+Each returns all the elements of an array or hash.
+It is always used with a block. Each value of the array
+is passed to the block one by one. 

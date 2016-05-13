@@ -1,0 +1,23 @@
+How would you make the H1 tags show up in Red
+on the homepage, green on the About Us page
+and Purple on the Contact Us page?
+
+In each of the html pages:
+
+<body class='home'>
+<body class='about'>
+<body class='contact'>
+
+In the css file:
+
+.home {
+  .h1 { color: red }
+}
+
+.about {
+  .h1 { color: green }
+}
+
+.contact {
+  .h1 { color: purple }
+}

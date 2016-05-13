@@ -1,0 +1,4 @@
+What does remote: true do on a link_to ?
+
+It allows you to bind to the same Ajax events that
+you would with form_for.

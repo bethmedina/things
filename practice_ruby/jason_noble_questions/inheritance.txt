@@ -1,0 +1,39 @@
+Give examples both with classical inheritance and with composition of how you would build objects
+representing pick-up trucks, compact cars, and SUVs. don't get overly technical w/ internals of cars
+
+Classical (is-a relationship):
+
+class Foo
+  attr_accessor :thing
+end
+
+class Bar < Foo
+  attr_accessor :other_thing
+end
+
+b = Bar.new
+b.thing = "something"
+
+b is_a? Foo => true
+b is_a? Bar => true
+b.class == Foo => false
+
+
+Composition (has-a relationship):
+
+class Foo
+  attr_accessor :thing
+end
+
+class Bar
+  def initialize
+    @foo = Foo.new
+  end
+
+  def thing
+    @foo.thing
+  end
+end
+
+b = Bar.new
+b.thing
